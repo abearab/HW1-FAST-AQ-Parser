@@ -1,5 +1,6 @@
 # Project 1
 Building a FAST[AQ] Parser + Building a DNA -> RNA Transcriber
+![](https://github.com/abearab/HW1-FAST-AQ-Parser/workflows/Project%20Tests/badge.svg)
 
 # Assignment Overview
 The purpose of this assignment is to bring everybody up to speed on using python and highlight some of the elements of the language and of OOP that will be _inherited_ by downstream course content. We also hope to use this as an opportunity to learn some of the useful tools within github for software development that will be useful to you in your research experiences down the road. 
@@ -42,8 +43,6 @@ We've provided for you a basic Fasta and Fastq parser (written out in the parse.
 	* runs pytest
 	
 	You can also reference the [Minimal-Example](https://github.com/bmi203-2023/Minimal-Example).
-
-![](https://github.com/hchen725/HW1-FAST-AQ-Parser/workflows/Project%20Tests/badge.svg)
 
 # Getting Started
 To get started you will need to fork this repository onto your own github. You will then work on the code base from your own repo and make changes to it in the form of commits. 
