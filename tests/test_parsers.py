@@ -53,7 +53,7 @@ def test_FastaFormat():
     fa_parser = FastaParser(fasta_file)
     file_lines = [line for line in fa_parser]
 
-    assert file_lines[0][0] == None, "This is not a fasta file"
+    assert file_lines[0][0] != None, "This is not a fasta file"
     pass
     
 
