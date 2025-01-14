@@ -23,13 +23,15 @@ def test_freebie_transcribe_2():
         
 def test_transcribe():
     """
-    Write your unit test for the transcribe function here.
+    unit test for the transcribe function here.
     """
-    pass
+    transcribe("ATCG", reverse=False) == "AUCG"
+    transcribe("ATCG", reverse=True) == "CGAU"
 
 
 def test_reverse_transcribe():
     """
-    Write your unit test for the reverse transcribe function here.
+    unit test for the reverse transcribe function here.
     """
-    pass
+    reverse_transcribe("ATCG") == "CGAU"
+    reverse_transcribe("ATCG") == "CGAU"
